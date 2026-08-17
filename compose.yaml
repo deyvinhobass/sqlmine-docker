@@ -1,8 +1,0 @@
-services:
-  wiredpanda:
-    build:
-      context: .
-    container_name: wiredpanda-web
-    ports:
-      - "8080:8080"
-    restart: unless-stopped
